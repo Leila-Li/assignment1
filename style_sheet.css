@@ -6,6 +6,10 @@ h1 {
   color: #42f5b3
 }
 
-text + p{
-  color: #fff;
+p::first-line {
+  background-color: yellow;
+}
+
+text p{
+  color: white;
 }
